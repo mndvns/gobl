@@ -1,0 +1,26 @@
+include ../scripts/elements.js
+
+template#xxx(bind syntax="custom")
+  label value
+  input(type="text", value="{{value}}")
+  br
+  label rabbit
+  input(type="text", value="{{rabbit}}")
+  h3 twice {{rabbit * value}}
+  hr
+  label hide
+  br
+  input(type="text", value="{{hide}}")
+  h3(hidden?="{{hide}}") adsasd
+  br
+  h1 {{value}}
+
+// element(name="pr-rock")
+//   script.
+//     Polymer.register(this)
+//     // a.register(this, "pg-rock")
+
+pr-rock
+
+include ../scripts/syntax.js
+

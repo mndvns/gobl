@@ -1,0 +1,18 @@
+extends layout.jade
+
+block content
+  include ../scripts/ang-app.js
+  // include polyfils
+
+  div(ng-app="app")
+    div(ng-controller="KeyboardCtrl")
+      #keyboard
+        row(ng-repeat="row in rows")
+          key(ng-repeat="key in row.keys",
+            active="{{key === (active.charAt(active.length-1)|lowercase)}}"
+            ) {{key}}
+
+
+      textarea(rows="30", ng-model="active")
+
+

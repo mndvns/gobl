@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "repo": "mvanasse/blog",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/underscore": "*",
+    "component/reactive": "*",
+    "component/dom": "*",
+    "mvanasse/polymer": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "style.css"
+  ]
+}

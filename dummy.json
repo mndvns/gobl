@@ -1,0 +1,188 @@
+{ 
+  "fathers" : [ 
+    { 
+      "id" : 0,
+      "married" : true,
+      "name" : "Richard Walker",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 9,
+          "name" : "Donna"
+          }
+        ]
+      },
+    { 
+      "id" : 1,
+      "married" : false,
+      "name" : "Donald Davis",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 23,
+          "name" : "Maria"
+          },
+        { 
+          "age" : 4,
+          "name" : "Kimberly"
+          },
+        { 
+          "age" : 26,
+          "name" : "Margaret"
+          }
+        ]
+      },
+    { 
+      "id" : 2,
+      "married" : false,
+      "name" : "Paul Johnson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 5,
+          "name" : "Donna"
+          },
+        { 
+          "age" : 1,
+          "name" : "Sarah"
+          }
+        ]
+      },
+    { 
+      "id" : 3,
+      "married" : true,
+      "name" : "Kenneth Anderson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 1,
+          "name" : "Cynthia"
+          },
+        { 
+          "age" : 0,
+          "name" : "Helen"
+          },
+        { 
+          "age" : 27,
+          "name" : "Amy"
+          }
+        ]
+      },
+    { 
+      "id" : 4,
+      "married" : false,
+      "name" : "Jeffrey Jackson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 31,
+          "name" : "Ruth"
+          },
+        { 
+          "age" : 15,
+          "name" : "Shirley"
+          }
+        ]
+      },
+    { 
+      "id" : 5,
+      "married" : true,
+      "name" : "Charles Johnson",
+      "sons" : null,
+      "daughters" : [
+        ]
+      },
+    { 
+      "id" : 6,
+      "married" : true,
+      "name" : "Robert Perez",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 30,
+          "name" : "Patricia"
+          }
+        ]
+      },
+    { 
+      "id" : 7,
+      "married" : true,
+      "name" : "Matthew Allen",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 18,
+          "name" : "Sarah"
+          },
+        { 
+          "age" : 7,
+          "name" : "Michelle"
+          }
+        ]
+      },
+    { 
+      "id" : 8,
+      "married" : false,
+      "name" : "Matthew Lewis",
+      "sons" : null,
+      "daughters" : [
+        ]
+      },
+    { 
+      "id" : 9,
+      "married" : true,
+      "name" : "Jason Johnson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 3,
+          "name" : "Melissa"
+          },
+        { 
+          "age" : 20,
+          "name" : "Kimberly"
+          }
+        ]
+      },
+    { 
+      "id" : 10,
+      "married" : true,
+      "name" : "Brian Walker",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 1,
+          "name" : "Sandra"
+          },
+        { 
+          "age" : 23,
+          "name" : "Jessica"
+          }
+        ]
+      },
+    { 
+      "id" : 11,
+      "married" : true,
+      "name" : "Ronald Anderson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 3,
+          "name" : "Ruth"
+          },
+        { 
+          "age" : 21,
+          "name" : "Patricia"
+          }
+        ]
+      },
+    { 
+      "id" : 12,
+      "married" : false,
+      "name" : "David Brown",
+      "sons" : null,
+      "daughters" : [
+        ]
+      }
+    ]
+  }

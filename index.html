@@ -1,0 +1,34 @@
+<!DOCTYPE html><head><title>sadoaijdoij</title><script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.5/angular.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script><script src="./components/mvanasse-polymer/polymer.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.3.0/ui-bootstrap-tpls.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script><script src="./build/build.js"></script><script src="lib/prelude-browser-min.js"></script><link href="./build/build.css" rel="stylesheet"><link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"></head><body id="body"><script type="text/javascript">
+var map, app, keys, KeyboardCtrl;
+map = require('prelude-ls').map;
+app = angular.module("app", ["ui"]);
+keys = [
+  {
+    name: "top",
+    keys: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p']
+  }, {
+    name: "home",
+    keys: ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l']
+  }, {
+    name: "bottom",
+    keys: ['z', 'x', 'c', 'v', 'b', 'n', 'm']
+  }
+];
+KeyboardCtrl = function($scope){
+  $scope.rows = keys;
+  return $scope.keypress_cb = function(v){
+    var j;
+    v.preventDefault();
+    j = v.target.value;
+    return console.log(j);
+  };
+};
+app.directive("textbox", function(){
+  return {
+    restrict: 'A',
+    scope: {
+      active: "@"
+    },
+    link: function(scope, element){}
+  };
+});</script><!-- include polyfils--><div ng-app="app"><div ng-controller="KeyboardCtrl"><div id="keyboard"><row ng-repeat="row in rows"><key ng-repeat="key in row.keys" active="{{key === (active.charAt(active.length-1)|lowercase)}}">{{key}}</key></row></div><textarea rows="30" ng-model="active"></textarea></div></div></body>

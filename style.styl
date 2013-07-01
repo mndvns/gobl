@@ -1,0 +1,42 @@
+@import 'nib'
+
+html
+  relative top
+  height 100%
+
+#body
+  padding 0 0 0 0
+
+#keyboard
+  fixed bottom
+  width 100%
+  background #ccc
+  display flex
+  flex-flow column
+  padding 25px
+  box-sizing border-box
+  align-items center
+
+  row
+    display flex
+    &:first-child
+      width 100%
+    &:nth-child(2)
+      width 90%
+      // margin-right -3%
+    &:last-child
+      width 70%
+      margin-right 10%
+
+  key
+    background rgba(blue, 0.3)
+    flex 1 1 auto
+    s = 40px
+    min-height s
+    min-width s
+    margin 2px
+    display flex
+    align-items center
+    justify-content center
+    &[active=true]
+      background white
